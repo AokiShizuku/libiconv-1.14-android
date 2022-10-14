@@ -22,5 +22,5 @@ LOCAL_C_INCLUDES += \
   $(LOCAL_PATH)/libiconv-1.14/srclib
  
 LOCAL_EXPORT_C_INCLUDES       := $(LOCAL_PATH)/libiconv-1.14/include
-#include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_SHARED_LIBRARY)
 include $(BUILD_STATIC_LIBRARY)
